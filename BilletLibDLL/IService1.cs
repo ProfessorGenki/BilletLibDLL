@@ -11,8 +11,7 @@ namespace BilletLibDLL
     [ServiceContract]
     public interface IService1
     {
-
         [OperationContract]
-        int pris();
+        int PrisBil();
     }
 }
